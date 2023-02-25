@@ -1,0 +1,17 @@
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: realme/RMX1911/RMX1911:9/PKQ1.190616.001/1589289744:user/release-keys
+Revision: '0'
+ABI: 'arm'
+pid: 13270, tid: 13371, name: VM Thread  >>> cosine.boat <<<
+signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0xa4
+    r0 00000000  r1 000026a6  r2 0000005a  r3 40000000
+    r4 e6abc1a8  r5 c237f9c8  r6 c237f6a4  r7 00000000
+    r8 c8f8e408  r9 000003ec  sl 00000000  fp eaf19000
+    ip e8dfccec  sp c237f698  lr e8dd0129  pc e6a26002  cpsr 200f0030
+ 
+backtrace:
+    #00 pc 003d9002  /system/lib/libart.so (_ZN3art20QuickArgumentVisitor14VisitArgumentsEv+241)
+    #01 pc 000750c5  /system/lib/libc.so (__cxa_finalize+252)
+    #02 pc 000180ab  /system/lib/libc.so (exit+10)
+    #03 pc 002112a1  /data/data/cosine.boat/app_runtime/j2re-image/lib/aarch32/client/libjvm.so (_Z14vm_direct_exiti+12)
+ 

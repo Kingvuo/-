@@ -1,0 +1,935 @@
+WARNING: linker: Warning: "/data/data/cosine.boat/app_runtime/j2re-image/lib/aarch32/libzip.so" has unsupported flags DT_FLAGS_1=0x81 (ignoring unsupported flags)
+WARNING: linker: Warning: "/data/data/cosine.boat/app_runtime/j2re-image/lib/aarch32/libmanagement.so" has unsupported flags DT_FLAGS_1=0x81 (ignoring unsupported flags)
+[04:09:16] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[04:09:16] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[04:09:16] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[04:09:16] [main/INFO]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[04:09:16] [main/INFO]: Java is OpenJDK Client VM, version 1.8.0-internal, running on Linux:arm:4.14.98-perf+, installed at /data/data/cosine.boat/app_runtime/j2re-image
+[04:09:17] [main/WARN]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[04:09:17] [main/WARN]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[04:09:17] [main/INFO]: Searching /sdcard/boat/gamedir/mods for mods
+[04:09:17] [main/INFO]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[04:09:17] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in mclib-1.0.4-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[04:09:17] [main/WARN]: The coremod McLib core mod (mchorse.mclib.core.McLibCM) is not signed!
+[04:09:17] [main/WARN]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
+[04:09:17] [main/INFO]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_F5.jar
+[04:09:17] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from phosphor-1.12.2-0.2.6+build50-universal.jar
+[04:09:17] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:09:17] [main/INFO]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[04:09:17] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
+[04:09:17] [main/INFO]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[04:09:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/sdcard/boat/gamedir/mods/phosphor-1.12.2-0.2.6+build50-universal.jar Service=LaunchWrapper Env=CLIENT
+[04:09:17] [main/DEBUG]: Instantiating coremod class PhosphorFMLLoadingPlugin
+[04:09:17] [main/DEBUG]: The coremod me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[04:09:17] [main/DEBUG]: Found signing certificates for coremod PhosphorFMLLoadingPlugin (me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin)
+[04:09:17] [main/DEBUG]: Found certificate f0387d288626cc2d937daa504e74af570c52a2f1
+[04:09:17] [main/DEBUG]: Enqueued coremod PhosphorFMLLoadingPlugin
+[04:09:17] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[04:09:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:09:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:09:17] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
+[04:09:17] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[04:09:17] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[04:09:17] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[04:09:17] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: /sdcard/boat/gamedir/mods/OptiFine_1.12.2_HD_U_F5.jar
+[04:09:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:09:17] [main/DEBUG]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[04:09:17] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[04:09:18] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[04:09:18] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[04:09:18] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[04:09:18] [main/DEBUG]: Injection complete
+[04:09:18] [main/DEBUG]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[04:09:18] [main/DEBUG]: Running coremod plugin FMLCorePlugin
+WARNING: linker: Warning: "/data/data/cosine.boat/app_runtime/j2re-image/lib/aarch32/libunpack.so" has unsupported flags DT_FLAGS_1=0x81 (ignoring unsupported flags)
+[04:09:22] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[04:09:22] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[04:09:22] [main/DEBUG]: Coremod plugin class FMLCorePlugin run successfully
+[04:09:22] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:09:22] [main/DEBUG]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[04:09:22] [main/DEBUG]: Injection complete
+[04:09:22] [main/DEBUG]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[04:09:22] [main/DEBUG]: Running coremod plugin FMLForgePlugin
+[04:09:22] [main/DEBUG]: Coremod plugin class FMLForgePlugin run successfully
+[04:09:22] [main/INFO]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[04:09:22] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@11de37d
+[04:09:22] [main/DEBUG]: Injecting coremod PhosphorFMLLoadingPlugin \{me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin\} class transformers
+[04:09:22] [main/DEBUG]: Injection complete
+[04:09:22] [main/DEBUG]: Running coremod plugin for PhosphorFMLLoadingPlugin \{me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin\}
+[04:09:22] [main/DEBUG]: Running coremod plugin PhosphorFMLLoadingPlugin
+[04:09:22] [main/INFO]: Compatibility level set to JAVA_8
+[04:09:22] [main/DEBUG]: Coremod plugin class PhosphorFMLLoadingPlugin run successfully
+[04:09:22] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:09:22] [main/DEBUG]: Injecting coremod McLib core mod \{mchorse.mclib.core.McLibCM\} class transformers
+[04:09:22] [main/TRACE]: Registering transformer mchorse.mclib.core.McLibCMClassTransformer
+[04:09:22] [main/DEBUG]: Injection complete
+[04:09:22] [main/DEBUG]: Running coremod plugin for McLib core mod \{mchorse.mclib.core.McLibCM\}
+[04:09:22] [main/DEBUG]: Running coremod plugin McLib core mod
+[04:09:22] [main/DEBUG]: Coremod plugin class McLibCM run successfully
+[04:09:22] [main/INFO]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[04:09:22] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[04:09:22] [main/DEBUG]: Validating minecraft
+[04:09:23] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:09:23] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[04:09:23] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[04:09:23] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[04:09:23] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[04:09:23] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[04:09:23] [main/INFO]: Patching net.minecraft.client.Minecraft... (bib)
+[04:09:23] [main/INFO]: A re-entrant transformer 'guichaguri.betterfps.transformers.PatcherTransformer' was detected and will no longer process meta class data
+[04:09:24] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[04:09:24] [main/INFO]: Patching net.minecraft.client.Minecraft... (bib)
+[04:09:24] [main/INFO]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[04:09:25] [main/INFO]: [net.minecraft.client.main.Main:main:55]: Completely ignored arguments: [1.12.2, ]
+[04:09:25] [Client thread/INFO]: Setting user: 冷熙
+[04:09:25] [Client thread/INFO]: Patching net.minecraft.block.Block... (aow)
+[04:09:27] [Client thread/INFO]: Patching math utils with "RIVENS_HALF" algorithm
+[04:09:28] [Client thread/INFO]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[04:09:29] [Client thread/INFO]: Patching net.minecraft.block.BlockHopper... (arl)
+[04:09:29] [Client thread/INFO]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[04:09:33] [BetterFps Update Checker/WARN]: Could not check for updates: widget.mcf.li
+[04:09:33] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[04:09:33] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[04:09:34] [Client thread/INFO]: Patching net.minecraft.client.renderer.EntityRenderer... (buq)
+[04:09:35] [Client thread/INFO]: Applying ASM to RenderItem
+[04:09:35] [Client thread/INFO]: Successfully patched RenderItem
+[04:09:35] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[04:09:35] [Client thread/INFO]: Patching net.minecraft.client.gui.GuiOptions... (ble)
+[04:09:35] [Client thread/WARN]: Skipping bad option: lastServer:
+[04:09:35] [Client thread/INFO]: LWJGL Version: 2.9.3
+[04:09:36] [Client thread/INFO]: [org.lwjgl.opengl.BoatDisplay:createWindow:58]: Window width: 854 Window height: 480
+[04:09:36] [Client thread/INFO]: [org.lwjgl.opengl.BoatInputEventReceiver:<clinit>:65]: BoatInputEventReceiver is created!The port is :37397
+[04:09:36] [Client thread/INFO]: [OptiFine] 
+[04:09:36] [Client thread/INFO]: [OptiFine] OptiFine_1.12.2_HD_U_F5
+[04:09:36] [Client thread/INFO]: [OptiFine] Build: 20191204-141934
+[04:09:36] [Client thread/INFO]: [OptiFine] OS: Linux (arm) version 4.14.98-perf+
+[04:09:36] [Client thread/INFO]: [OptiFine] Java: 1.8.0-internal, Oracle Corporation
+[04:09:36] [Client thread/INFO]: [OptiFine] VM: OpenJDK Client VM (mixed mode), Oracle Corporation
+[04:09:36] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.3
+[04:09:36] [Client thread/INFO]: [OptiFine] OpenGL: GL4ES wrapper, version 2.0 gl4es wrapper 1.1.2, ptitSeb
+[04:09:36] [Client thread/INFO]: [OptiFine] OpenGL Version: 2.0.0
+[04:09:36] [Client thread/INFO]: [OptiFine] OpenGL Occlussion culling: Not available (GL_ARB_occlusion_query)
+[04:09:36] [Client thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[04:09:36] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[04:09:36] [VersionCheck/INFO]: [OptiFine] java.net.UnknownHostException: optifine.net
+[04:09:36] [Client thread/INFO]: [Shaders] OpenGL Version: 2.0 gl4es wrapper 1.1.2
+[04:09:36] [Client thread/INFO]: [Shaders] Vendor:  ptitSeb
+[04:09:36] [Client thread/INFO]: [Shaders] Renderer: GL4ES wrapper
+[04:09:36] [Client thread/INFO]: [Shaders] Capabilities:  2.0  -  -  -  - 
+[04:09:36] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 1
+[04:09:36] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 1
+[04:09:36] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 8
+[04:09:36] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[04:09:36] [Client thread/INFO]: [Shaders] Save shaders configuration.
+[04:09:36] [Client thread/INFO]: [Shaders] Shaders can not be loaded, Fast Render is enabled.
+[04:09:36] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[04:09:36] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[04:09:36] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[04:09:36] [Client thread/INFO]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[04:09:36] [Client thread/INFO]: [OptiFine] VboRegions not supported, missing: OpenGL 1.3, ARB_copy_buffer
+[04:09:36] [Client thread/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:15]: McLib: Transforming SimpleReloadableResourceManager class (cev)
+[04:09:36] [Client thread/INFO]: [mchorse.mclib.core.transformers.SimpleReloadableResourceManagerTransformer:processGetResource:52]: McLib: successfully patched getResource!
+[04:09:37] [Client thread/INFO]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_F5, enabling compatibility features
+[04:09:37] [Client thread/INFO]: MinecraftForge v14.23.5.2847 Initialized
+[04:09:37] [Client thread/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[04:09:37] [Client thread/INFO]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[04:09:37] [Client thread/INFO]: Replaced 1227 ore ingredients
+[04:09:37] [Client thread/INFO]: Searching /sdcard/boat/gamedir/mods for mods
+[04:09:39] [Client thread/WARN]: Mod fpsreducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.12.2-1.12.4
+[04:09:39] [Client thread/INFO]: Forge Mod Loader has identified 19 mods to load
+[04:09:39] [Client thread/WARN]: Mod mclib_core has been disabled through configuration
+Jun 02, 2020 4:09:40 AM io.netty.util.internal.PlatformDependent tmpdir0
+WARNING: Failed to get the temporary directory; falling back to: /tmp
+[04:09:40] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, obfuscate, additionalstructures, cfm, emoticons, fpsreducer, jei, journeymap, mclib, jmcm, movillages, mobends, vehicle, toughasnails, phosphor-lighting] at CLIENT
+[04:09:40] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, obfuscate, additionalstructures, cfm, emoticons, fpsreducer, jei, journeymap, mclib, jmcm, movillages, mobends, vehicle, toughasnails, phosphor-lighting] at SERVER
+[04:09:42] [Client thread/INFO]: Reloading ResourceManager: BetterFps, Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Rex's Additional Structures, FMLFileResourcePack:MrCrayfish's Furniture Mod, FMLFileResourcePack:Emoticons, FMLFileResourcePack:FPS Reducer, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:JourneyMap, FMLFileResourcePack:McLib, FMLFileResourcePack:James090500's MinecraftCapes Mod, FMLFileResourcePack:Mo' Villages, FMLFileResourcePack:Mo' Bends, FMLFileResourcePack:MrCrayfish's Vehicle Mod, FMLFileResourcePack:Tough As Nails, FMLFileResourcePack:Phosphor Lighting Engine, Faithsky.zip, NNiXX_OverlayTextures_1.12.zip, resourcepacks.zip, Comfortaa B-1.zip
+[04:09:42] [Client thread/INFO]: Processing ObjectHolder annotations
+[04:09:42] [Client thread/INFO]: Found 1239 ObjectHolder annotations
+[04:09:42] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[04:09:42] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[04:09:42] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[04:09:42] [Forge Version Check/INFO]: [emoticons] Starting version check at https://mchorse.github.io/assets/emoticons.json
+[04:09:42] [Client thread/INFO]: Successfully injected SyncedPlayerData capability
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: java.net.UnknownHostException: www.dropbox.com
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+[04:09:42] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at java.net.Socket.connect(Socket.java:607)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1046)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1044)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at java.security.AccessController.doPrivileged(Native Method)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1043)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1488)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at java.security.AccessController.doPrivileged(Native Method)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1487)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at java.net.URL.openStream(URL.java:1067)
+[04:09:42] [Update-Checker/INFO]: [xxrexraptorxx.additionalstructures.util.UpdateChecker$1:run:34]: 	at xxrexraptorxx.additionalstructures.util.UpdateChecker$1.run(UpdateChecker.java:24)
+[04:09:42] [Forge Version Check/INFO]: [mclib] Starting version check at https://raw.githubusercontent.com/mchorse/mclib/master/version.json
+[04:09:46] [Client thread/INFO]: No plugins for JourneyMap API discovered.
+[04:09:46] [Client thread/INFO]: [MoVillages] Generated Village Customization Config!
+[04:09:47] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `temperature_spread`, expected `toughasnails`. This could be a intended override, but in most cases indicates a broken mod.
+[04:09:48] [Client thread/INFO]: Applying holder lookups
+[04:09:48] [Client thread/INFO]: Holder lookups applied
+[04:09:48] [Client thread/INFO]: Applying holder lookups
+[04:09:48] [Client thread/INFO]: Holder lookups applied
+[04:09:48] [Client thread/INFO]: Applying holder lookups
+[04:09:48] [Client thread/INFO]: Holder lookups applied
+[04:09:48] [Client thread/INFO]: Applying holder lookups
+[04:09:48] [Client thread/INFO]: Holder lookups applied
+[04:09:48] [Client thread/INFO]: Injecting itemstacks
+[04:09:48] [Client thread/INFO]: Itemstack injection complete
+[04:09:48] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[04:09:48] [Client thread/INFO]: [OptiFine] Resource packs: Faithsky.zip, NNiXX_OverlayTextures_1.12.zip, resourcepacks.zip, Comfortaa B-1.zip
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/best_mates.ogg does not exist, cannot add it to event emoticons:best_mates
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/boneless.ogg does not exist, cannot add it to event emoticons:boneless
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/default.ogg does not exist, cannot add it to event emoticons:default
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/disco_fever.ogg does not exist, cannot add it to event emoticons:disco_fever
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/electro_shuffle.ogg does not exist, cannot add it to event emoticons:electro_shuffle
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/floss.ogg does not exist, cannot add it to event emoticons:floss
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/fresh.ogg does not exist, cannot add it to event emoticons:fresh
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/gangnam_style.ogg does not exist, cannot add it to event emoticons:gangnam_style
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/hype.ogg does not exist, cannot add it to event emoticons:hype
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/infinite_dab.ogg does not exist, cannot add it to event emoticons:infinite_dab
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/orange_justice.ogg does not exist, cannot add it to event emoticons:orange_justice
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/skibidi.ogg does not exist, cannot add it to event emoticons:skibidi
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/squat_kick.ogg does not exist, cannot add it to event emoticons:squat_kick
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/star_power.ogg does not exist, cannot add it to event emoticons:star_power
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/take_the_l.ogg does not exist, cannot add it to event emoticons:take_the_l
+[04:09:50] [Client thread/WARN]: File emoticons:sounds/tidy.ogg does not exist, cannot add it to event emoticons:tidy
+[04:09:50] [Client thread/WARN]: Missing sound for event: emoticons:free_flow
+[04:09:50] [Client thread/WARN]: Missing sound for event: emoticons:shimmer
+[04:09:50] [Client thread/WARN]: Missing sound for event: emoticons:getfunky
+[04:09:50] [Client thread/WARN]: Missing sound for event: cfm:channel_news
+[04:09:50] [Client thread/WARN]: Missing sound for event: cfm:channel_cooking
+[04:09:50] [Client thread/WARN]: Missing sound for event: cfm:channel_sam_tabor
+[04:09:50] [Client thread/WARN]: Missing sound for event: cfm:channel_heman
+[04:09:50] [Client thread/WARN]: Missing sound for event: cfm:channel_switch
+[04:09:50] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[04:09:50] [Client thread/INFO]: [OptiFine] Loading mcpatcher/font/ascii.properties
+[04:09:50] [Client thread/INFO]: [OptiFine] Loading mcpatcher/font/ascii_sga.properties
+[04:09:50] [Thread-3/INFO]: Initializing LWJGL OpenAL
+[04:09:50] [Thread-3/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[04:09:50] [Thread-3/INFO]: OpenAL initialized.
+[04:09:50] [Sound Library Loader/INFO]: Sound engine started
+[04:09:56] [Client thread/INFO]: [OptiFine] Multitexture: false
+[04:09:56] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:09:56] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/0_sand_overlay/sand_overlay.properties
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/1_grass_overlay/grass.properties
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/1_grass_overlay/grass_overlay.properties
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/2_gravel_overlay/gravel_overlay.properties
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/3_red_sand_overlay/red_sand.properties
+[04:09:56] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_connect/bookshelf_a.properties
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/left/bookshelf_b.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/0.png
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/middle/bookshelf_b.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/1.png
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/right/bookshelf_b.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/2.png
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/single/bookshelf_b.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] File not found: mcpatcher/ctm/bookshelf_connect/3.png
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/bookshelf_random/single/bookshelf_c.properties
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/brewing_stand/brewing_stand.properties
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_clear/glass.properties
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_clear/glass_pane.properties
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_black/glass_black.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:black_stained_glass
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_black/glass_pane_black.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:black_stained_glass_pane
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_blue/glass_blue.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:blue_stained_glass
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_blue/glass_pane_blue.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:blue_stained_glass_pane
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_brown/glass_brown.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:brown_stained_glass
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_brown/glass_pane_brown.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:brown_stained_glass_pane
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_cyan/glass_cyan.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:cyan_stained_glass
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_cyan/glass_pane_cyan.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:cyan_stained_glass_pane
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_gray/glass_gray.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:gray_stained_glass
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_gray/glass_pane_gray.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:gray_stained_glass_pane
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_green/glass_green.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:green_stained_glass
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_green/glass_pane_green.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:green_stained_glass_pane
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_light_blue/glass_light_blue.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:light_blue_stained_glass
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_light_blue/glass_pane_light_blue.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:light_blue_stained_glass_pane
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_light_gray/glass_light_gray.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:light_gray_stained_glass
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_light_gray/glass_pane_light_gray.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:light_gray_stained_glass_pane
+[04:09:56] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_lime/glass_lime.properties
+[04:09:56] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:lime_stained_glass
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_lime/glass_pane_lime.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:lime_stained_glass_pane
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_magenta/glass_magenta.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:magenta_stained_glass
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_magenta/glass_pane_magenta.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:magenta_stained_glass_pane
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_orange/glass_orange.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:orange_stained_glass
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_orange/glass_pane_orange.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:orange_stained_glass_pane
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_pink/glass_pane_pink.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:pink_stained_glass_pane
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_pink/glass_pink.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:pink_stained_glass
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_purple/glass_pane_purple.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:purple_stained_glass_pane
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_purple/glass_purple.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:purple_stained_glass
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_red/glass_pane_red.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:red_stained_glass_pane
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_red/glass_red.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:red_stained_glass
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_white/glass_pane_white.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:white_stained_glass_pane
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_white/glass_white.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:white_stained_glass
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_yellow/glass_pane_yellow.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:yellow_stained_glass_pane
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/glass_stained/glass_yellow/glass_yellow.properties
+[04:09:57] [Client thread/WARN]: [OptiFine] ConnectedTextures: Block not found for name: minecraft:yellow_stained_glass
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/packed_ice/ice.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/sandstone/sandstone_normal.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/sandstone_smooth/sandstone_smooth.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/sugar_cane/reeds.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/vines/vine.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_acacia/log_acacia_top.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_birch/log_birch_top.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_dark_oak/log_big_oak_top.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_jungle/log_jungle_top.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_oak/log_oak_top.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/ctm/wood_ends/wood_spruce/log_spruce_top.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_acacia/leaves_acacia.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_big_oak/leaves_big_oak.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_birch/leaves_birch.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/overlay/leaves_oak/leaves_oak.properties
+[04:09:57] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:09:57] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[04:09:57] [Client thread/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[04:09:58] [Client thread/ERROR]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/0.png, java.io.FileNotFoundException
+[04:09:58] [Client thread/ERROR]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/1.png, java.io.FileNotFoundException
+[04:09:58] [Client thread/ERROR]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/2.png, java.io.FileNotFoundException
+[04:09:58] [Client thread/ERROR]: Using missing texture, unable to load minecraft:mcpatcher/ctm/bookshelf_connect/3.png, java.io.FileNotFoundException
+[04:09:59] [Client thread/INFO]: [OptiFine] Custom loader sprites: 1
+[04:09:59] [Client thread/INFO]: Created: 2048x2048 textures-atlas
+[04:10:00] [Client thread/INFO]: [OptiFine] Animated sprites: 34
+[04:10:09] [Client thread/INFO]: Applying holder lookups
+[04:10:09] [Client thread/INFO]: Holder lookups applied
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmoven`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfridge`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfreezer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbedsidecabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmailbox`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcomputer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmprinter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmstereo`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmpresent`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbin`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwallcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbath`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmshowerhead`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmplate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcouch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtoaster`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmchoppingboard`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmblender`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmicrowave`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwashingmachine`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdishwasher`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinetkitchen`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcup`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcookiejar`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtree`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmirror`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmgrill`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmeski`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdoormat`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcrate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmlightswitch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmceilingfan`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdeskcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmodernslidingdoor`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdigitalclock`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtv`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:09] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounterdrawer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:10:11] [Client thread/INFO]: Created: 128x256 textures-atlas
+[04:10:12] [Client thread/INFO]: JourneyMap log initialized.
+[04:10:12] [Client thread/INFO]: initialize ENTER
+[04:10:12] [Client thread/INFO]: [ClientAPI] built with JourneyMap API 1.4
+[04:10:12] [Client thread/INFO]: Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[04:10:12] [Client thread/INFO]: initialize EXIT, elapsed count 0 avg �ms
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: java.net.UnknownHostException: www.dropbox.com
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.net.Socket.connect(Socket.java:607)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1046)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1044)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.security.AccessController.doPrivileged(Native Method)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1043)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1488)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.security.AccessController.doPrivileged(Native Method)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1487)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.net.URL.openStream(URL.java:1067)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.gobbob.mobends.pack.PackManager.downloadPublicDatabase(PackManager.java:113)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.gobbob.mobends.pack.PackManager.initialize(PackManager.java:43)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.gobbob.mobends.client.ClientProxy.init(ClientProxy.java:30)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.gobbob.mobends.MoBends.init(MoBends.java:65)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at java.lang.reflect.Method.invoke(Method.java:498)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[04:10:12] [Client thread/INFO]: [net.gobbob.mobends.pack.PackManager:downloadPublicDatabase:125]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Jun 02, 2020 4:10:13 AM net.gobbob.mobends.util.BendsLogger info
+INFO: Registering Animated Entities...
+Jun 02, 2020 4:10:13 AM net.gobbob.mobends.util.BendsLogger info
+INFO: Registering Player
+Jun 02, 2020 4:10:13 AM net.gobbob.mobends.util.BendsLogger info
+INFO: Registering Zombie
+Jun 02, 2020 4:10:13 AM net.gobbob.mobends.util.BendsLogger info
+INFO: Registering Husk
+Jun 02, 2020 4:10:13 AM net.gobbob.mobends.util.BendsLogger info
+INFO: Registering Spider
+Jun 02, 2020 4:10:13 AM net.gobbob.mobends.util.BendsLogger info
+INFO: Registering Cave Spider
+Jun 02, 2020 4:10:13 AM net.gobbob.mobends.util.BendsLogger info
+INFO: Registering Skeleton
+Jun 02, 2020 4:10:13 AM net.gobbob.mobends.util.BendsLogger info
+INFO: Registering Wither Skeleton
+Jun 02, 2020 4:10:13 AM net.gobbob.mobends.util.BendsLogger info
+INFO: Registering Stray
+[04:10:13] [Client thread/INFO]: Injecting itemstacks
+[04:10:13] [Client thread/INFO]: Itemstack injection complete
+[04:10:15] [Client thread/INFO]: Added entity icons from journeymap:icon/entity. Success: false
+[04:10:15] [Client thread/INFO]: Preloaded theme textures: 72
+[04:10:15] [Client thread/INFO]: Starting JEI...
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [Client thread/ERROR]: Found empty subBlock of Block{cfm:curtains_open}
+[04:10:16] [JM-VersionCheck-1/ERROR]: Could not check version URL
+java.net.UnknownHostException: api.cfwidget.com: No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0-internal]
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929) ~[?:1.8.0-internal]
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324) ~[?:1.8.0-internal]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277) ~[?:1.8.0-internal]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193) ~[?:1.8.0-internal]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127) ~[?:1.8.0-internal]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:101) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[httpclient-4.3.3.jar:4.3.3]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:1.12.2-5.5.5]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0-internal]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0-internal]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0-internal]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0-internal]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0-internal]
+[04:10:17] [Client thread/INFO]: Registering recipe categories...
+[04:10:17] [Client thread/INFO]: Registering recipe categories took 69.79 ms
+[04:10:17] [Client thread/INFO]: Registering mod plugins...
+[04:10:17] [Client thread/INFO]: Registering mod plugins took 401.0 ms
+[04:10:17] [Client thread/INFO]: Building recipe registry...
+[04:10:17] [Client thread/INFO]: Building recipe registry took 180.1 ms
+[04:10:17] [Client thread/INFO]: Building ingredient list...
+[04:10:18] [Client thread/INFO]: Building ingredient list took 72.08 ms
+[04:10:18] [Client thread/INFO]: Building ingredient filter...
+[04:10:19] [Client thread/INFO]: Building ingredient filter took 1.567 s
+[04:10:19] [Client thread/INFO]: Building bookmarks...
+[04:10:19] [Client thread/INFO]: Building bookmarks took 7.405 ms
+[04:10:19] [Client thread/INFO]: Building runtime...
+[04:10:19] [Client thread/INFO]: Building runtime took 179.8 ms
+[04:10:19] [Client thread/INFO]: Starting JEI took 3.959 s
+[04:10:20] [Client thread/INFO]: Forge Mod Loader has successfully loaded 19 mods
+[04:10:20] [Client thread/WARN]: Skipping bad option: lastServer:
+[04:10:20] [Client thread/INFO]: [com.sun.jna.Native:loadNativeDispatchLibrary:841]: JNA Warning: IOException removing temporary files: JNA temporary directory '/tmp' does not exist
+[04:10:20] [Client thread/WARN]: ERROR : Couldn't load Narrator library : Failed to create temporary file for /com/sun/jna/linux-armel/libjnidispatch.so library: JNA temporary directory '/tmp' does not exist
+[04:10:20] [Client thread/ERROR]: Realms module missing
+[04:10:20] [Client thread/INFO]: [org.lwjgl.opengl.BoatDisplay:createWindow:58]: Window width: 1512 Window height: 720
+[04:10:20] [Client thread/INFO]: [org.lwjgl.opengl.BoatDisplay:createWindow:58]: Window width: 1512 Window height: 720
+[04:10:22] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[04:10:22] [Client thread/INFO]: [OptiFine] Natural Textures: Parsing default configuration "optifine/natural.properties"
+[04:10:22] [Client thread/INFO]: [OptiFine] Natural Textures: Valid only for textures from default resource pack
+[04:10:22] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/spider/spider.png, properties: mcpatcher/mob/spider/spider.properties
+[04:10:22] [Client thread/INFO]: [OptiFine] RandomEntities: textures/entity/spider_eyes.png, properties: mcpatcher/mob/spider_eyes.properties
+[04:10:37] [Client thread/ERROR]: Realms module missing
+[04:10:47] [Client thread/ERROR]: Realms module missing
+[04:11:20] [Server thread/INFO]: Starting integrated minecraft server version 1.12.2
+[04:11:20] [Server thread/INFO]: Generating keypair
+[04:11:20] [Server thread/INFO]: Injecting existing registry data into this server instance
+[04:11:20] [Server thread/INFO]: Registry Block: Found a missing id from the world mca:rose_gold_ore
+[04:11:20] [Server thread/INFO]: Registry Block: Found a missing id from the world mca:villager_spawner
+[04:11:20] [Server thread/INFO]: Registry Block: Found a missing id from the world mocreatures:mocdirt
+[04:11:20] [Server thread/INFO]: Registry Block: Found a missing id from the world mca:rose_gold_block
+[04:11:20] [Server thread/INFO]: Registry Block: Found a missing id from the world mocreatures:mocstone
+[04:11:20] [Server thread/INFO]: Registry Block: Found a missing id from the world mocreatures:mocgrass
+[04:11:20] [Server thread/INFO]: Registry Block: Found a missing id from the world mocreatures:moctallgrass
+[04:11:20] [Server thread/INFO]: Registry Block: Found a missing id from the world mocreatures:mocwoodplank
+[04:11:20] [Server thread/INFO]: Registry Block: Found a missing id from the world mocreatures:moclog
+[04:11:20] [Server thread/INFO]: Registry Block: Found a missing id from the world mocreatures:mocleaves
+[04:11:21] [Server thread/INFO]: Applying holder lookups
+[04:11:21] [Server thread/INFO]: Holder lookups applied
+[04:11:23] [Server thread/INFO]: Loading dimension 0 (Dunia Baru) (net.minecraft.server.integrated.IntegratedServer@c37253)
+[04:11:23] [Server thread/INFO]: Loaded 513 advancements
+[04:11:24] [Server thread/INFO]: Loading dimension -1 (Dunia Baru) (net.minecraft.server.integrated.IntegratedServer@c37253)
+[04:11:25] [Server thread/INFO]: Loading dimension 1 (Dunia Baru) (net.minecraft.server.integrated.IntegratedServer@c37253)
+[04:11:25] [Server thread/INFO]: Preparing start region for level 0
+[04:11:27] [Server thread/INFO]: Preparing spawn area: 0%
+[04:11:28] [Server thread/INFO]: Preparing spawn area: 15%
+[04:11:29] [Server thread/INFO]: Preparing spawn area: 25%
+[04:11:30] [Server thread/INFO]: Preparing spawn area: 42%
+[04:11:31] [Server thread/INFO]: Preparing spawn area: 62%
+[04:11:32] [Server thread/INFO]: Preparing spawn area: 91%
+[04:11:33] [Server thread/INFO]: Unloading dimension -1
+[04:11:33] [Server thread/INFO]: Unloading dimension 1
+[04:11:33] [Server thread/INFO]: Changing view distance to 2, from 10
+Jun 02, 2020 4:11:35 AM io.netty.util.internal.MacAddressUtil defaultMachineId
+WARNING: Failed to find a usable hardware address from the network interfaces; using random bytes: b1:3d:03:29:44:8f:f0:55
+[04:11:36] [Client thread/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@45d7b0[id=00000000-0000-0000-0000-000000000000,name=冷熙,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:85) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:173) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.func_71371_a(Minecraft.java:2421) [bib.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.tryLoadExistingWorld(FMLClientHandler.java:734) [FMLClientHandler.class:?]
+	at net.minecraft.client.gui.GuiListWorldSelectionEntry.func_186777_e(GuiListWorldSelectionEntry.java:249) [bol.class:?]
+	at net.minecraft.client.gui.GuiListWorldSelectionEntry.func_186774_a(GuiListWorldSelectionEntry.java:199) [bol.class:?]
+	at net.minecraft.client.gui.GuiListWorldSelectionEntry.func_148278_a(GuiListWorldSelectionEntry.java:163) [bol.class:?]
+	at net.minecraft.client.gui.GuiListExtended.func_148179_a(SourceFile:41) [bjm.class:?]
+	at net.minecraft.client.gui.GuiWorldSelection.func_73864_a(SourceFile:117) [bok.class:?]
+	at net.minecraft.client.gui.GuiScreen.func_146274_d(GuiScreen.java:533) [blk.class:?]
+	at net.minecraft.client.gui.GuiWorldSelection.func_146274_d(SourceFile:49) [bok.class:?]
+	at net.minecraft.client.gui.GuiScreen.func_146269_k(GuiScreen.java:501) [blk.class:?]
+	at net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1759) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1098) [bib.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:398) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0-internal]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0-internal]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0-internal]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0-internal]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.net.UnknownHostException: sessionserver.mojang.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0-internal]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0-internal]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0-internal]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666) ~[?:1.8.0-internal]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[?:1.8.0-internal]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0-internal]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1046) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1044) ~[?:1.8.0-internal]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0-internal]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1043) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1488) ~[?:1.8.0-internal]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0-internal]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1487) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268) ~[?:1.8.0-internal]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:130) ~[HttpAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:66) ~[YggdrasilAuthenticationService.class:?]
+	... 22 more
+[04:11:38] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[04:11:38] [Netty Server IO #1/INFO]: Client protocol version 2
+[04:11:38] [Netty Server IO #1/INFO]: Client attempting to join with 18 mods : minecraft@1.12.2,mclib@1.0.4,toughasnails@3.1.0.139,FML@8.0.99.99,obfuscate@0.4.2,cfm@6.3.0,additionalstructures@2.0.0,jei@4.15.0.291,vehicle@0.44.0,emoticons@0.4.3,fpsreducer@mc1.12.2-1.12.4,forge@14.23.5.2847,phosphor-lighting@1.12.2-0.2.6,mcp@9.42,jmcm@9.6,movillages@1.5.4,journeymap@1.12.2-5.5.5,mobends@0.24
+[04:11:38] [Netty Local Client IO #0/INFO]: Updating 0 synced key mappings
+[04:11:38] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[04:11:38] [Server thread/INFO]: [Server thread] Server side modded connection established
+[04:11:38] [Server thread/INFO]: 冷熙[local:E:9f8aa1ea] logged in with entity id 335 at (198.30587336483225, 72.0, 387.4279367142673)
+[04:11:38] [Server thread/INFO]: 冷熙 bergabung dalam permainan
+[04:11:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4656ms behind, skipping 93 tick(s)
+[04:11:40] [Server thread/INFO]: Saving and pausing game...
+[04:11:40] [Texture Downloader #1/ERROR]: Couldn't download http texture: minecraftcapes.co.uk
+[04:11:40] [Texture Downloader #2/ERROR]: Couldn't download http texture: minecraftcapes.co.uk
+[04:11:41] [Server thread/INFO]: Saving chunks for level 'Dunia Baru'/overworld
+[04:11:41] [Client thread/WARN]: [OptiFine] java.lang.NullPointerException null
+[04:11:41] [Client thread/WARN]: [OptiFine] Error finding Chunk.hasEntities
+[04:11:41] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.world.chunk.Chunk.hasEntities
+[04:11:41] [pool-3-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@10ba28[id=00000000-0000-0000-0000-000000000000,name=冷熙,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:85) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.func_181037_M(Minecraft.java:3001) [bib.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SourceFile:110) [cex$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0-internal]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0-internal]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0-internal]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0-internal]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0-internal]
+Caused by: java.net.UnknownHostException: sessionserver.mojang.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:1.8.0-internal]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0-internal]
+	at java.net.Socket.connect(Socket.java:607) ~[?:1.8.0-internal]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:666) ~[?:1.8.0-internal]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[?:1.8.0-internal]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463) ~[?:1.8.0-internal]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1046) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1044) ~[?:1.8.0-internal]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0-internal]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1043) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1488) ~[?:1.8.0-internal]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0-internal]
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1487) ~[?:1.8.0-internal]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268) ~[?:1.8.0-internal]
+	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:130) ~[HttpAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:66) ~[YggdrasilAuthenticationService.class:?]
+	... 19 more
+[04:11:42] [Client thread/INFO]: TAN configuration synchronized with the server
+[04:11:42] [Client thread/INFO]: TAN configuration synchronized with the server
+[04:11:42] [Client thread/INFO]: TAN configuration synchronized with the server
+[04:11:42] [Client thread/INFO]: TAN configuration synchronized with the server
+[04:11:42] [Client thread/INFO]: TAN configuration synchronized with the server
+[04:11:42] [Client thread/INFO]: TAN configuration synchronized with the server
+[04:11:42] [Client thread/INFO]: TAN configuration synchronized with the server
+[04:11:42] [Client thread/INFO]: [CHAT] Thank you for downloading MrCrayfish's Furniture Mod.
+[04:11:42] [Client thread/INFO]: [CHAT] §6-> §aCheck out MrCrayfish's YouTube
+[04:11:42] [Client thread/INFO]: [CHAT] §6-> §ryoutube.com/user/MrCrayfishMinecraft
+[04:11:42] [Image Download Thread/INFO]: [com.mrcrayfish.furniture.client.GifDownloadThread:run:97]: java.net.MalformedURLException: no protocol: youtube.com/Erpan1140
+[04:11:42] [Image Download Thread/INFO]: [com.mrcrayfish.furniture.client.GifDownloadThread:run:97]: 	at java.net.URL.<init>(URL.java:610)
+[04:11:42] [Image Download Thread/INFO]: [com.mrcrayfish.furniture.client.GifDownloadThread:run:97]: 	at java.net.URL.<init>(URL.java:507)
+[04:11:42] [Image Download Thread/INFO]: [com.mrcrayfish.furniture.client.GifDownloadThread:run:97]: 	at java.net.URL.<init>(URL.java:456)
+[04:11:42] [Image Download Thread/INFO]: [com.mrcrayfish.furniture.client.GifDownloadThread:run:97]: 	at com.mrcrayfish.furniture.client.GifDownloadThread.run(GifDownloadThread.java:70)
+[04:11:42] [Client thread/INFO]: Loaded 213 advancements
+[04:11:46] [Client thread/INFO]: Loaded 0 waypoints from /sdcard/boat/gamedir/journeymap/data/sp/Dunia Baru/waypoints
+[04:11:46] [Client thread/INFO]: Mapping started in /sdcard/boat/gamedir/journeymap/data/sp/Dunia Baru/DIM0. Memory: 435MB total, 23MB free 
+[04:11:46] [Client thread/INFO]: [CHAT] §eJourneyMap:§f Press [§bT§f]
+[04:11:46] [Client thread/INFO]: JourneyMap: Press [T]
+[04:11:46] [Netty Local Client IO #0/INFO]: Teleport Enabled:true
+[04:11:46] [Netty Local Client IO #0/INFO]: Server Admin Enabled:true
+[04:12:08] [Server thread/INFO]: Saving and pausing game...
+[04:12:08] [Server thread/INFO]: Saving chunks for level 'Dunia Baru'/overworld
+Jun 02, 2020 4:12:11 AM io.netty.util.internal.NativeLibraryLoader tmpdir
+WARNING: Failed to get the temporary directory; falling back to: /tmp
+[04:12:11] [Client thread/INFO]: Using default channel type
+[04:12:11] [Client thread/INFO]: Started on 37573
+[04:12:11] [Client thread/INFO]: [CHAT] Permainan lokal dijalankan pada porta 37573
+[04:12:11] [LanServerPinger #1/WARN]: LanServerPinger: Network is unreachable (sendto failed)
+[04:12:21] [Client thread/INFO]: [CHAT] Penggunaan: /locate <fitur>
+[04:12:39] [Client thread/INFO]: [CHAT] 'Tak dapat menemukan fitur village
+[04:12:53] [Client thread/WARN]: Unable to play empty soundEvent: emoticons:fresh
+[04:15:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2198ms behind, skipping 43 tick(s)
+[04:18:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2142ms behind, skipping 42 tick(s)
+[04:20:15] [Server thread/ERROR]: Encountered an unexpected exception
+net.minecraft.util.ReportedException: Ticking entity
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:773) ~[MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) ~[MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:279) ~[chd.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0-internal]
+Caused by: java.lang.IndexOutOfBoundsException: Index: 7, Size: 7
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0-internal]
+	at java.util.ArrayList.remove(ArrayList.java:496) ~[?:1.8.0-internal]
+	at net.minecraft.util.math.BlockPos$PooledMutableBlockPos.func_185339_c(SourceFile:455) ~[et$b.class:?]
+	at net.minecraft.util.math.BlockPos$PooledMutableBlockPos.func_185346_s(SourceFile:437) ~[et$b.class:?]
+	at net.minecraft.entity.Entity.func_70094_T(Entity.java:1966) ~[vg.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70030_z(EntityLivingBase.java:232) ~[vp.class:?]
+	at net.minecraft.entity.EntityLiving.func_70030_z(EntityLiving.java:269) ~[vq.class:?]
+	at net.minecraft.entity.Entity.func_70071_h_(Entity.java:389) ~[vg.class:?]
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2096) ~[vp.class:?]
+	at net.minecraft.entity.EntityLiving.func_70071_h_(EntityLiving.java:377) ~[vq.class:?]
+	at net.minecraft.world.World.func_72866_a(World.java:1996) ~[amu.class:?]
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:832) ~[oo.class:?]
+	at net.minecraft.world.World.func_72870_g(World.java:1958) ~[amu.class:?]
+	at net.minecraft.world.World.func_72939_s(World.java:1762) ~[amu.class:?]
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:613) ~[oo.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:767) ~[MinecraftServer.class:?]
+	... 4 more
+[04:20:16] [Server thread/ERROR]: This crash report has been saved to: /sdcard/boat/gamedir/crash-reports/crash-2020-06-02_04.20.15-server.txt
+[04:20:16] [Server thread/INFO]: Stopping server
+[04:20:16] [Client thread/INFO]: [net.minecraft.init.Bootstrap:func_179870_a:553]: ---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  PhosphorFMLLoadingPlugin (phosphor-1.12.2-0.2.6+build50-universal.jar)
+  ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  McLib core mod (mclib-1.0.4-1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Why did you do that?
+
+Time: 6/2/20 4:20 AM
+Description: Ticking entity
+
+java.lang.IndexOutOfBoundsException: Index: 7, Size: 7
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.remove(ArrayList.java:496)
+	at net.minecraft.util.math.BlockPos$PooledMutableBlockPos.func_185339_c(SourceFile:455)
+	at net.minecraft.util.math.BlockPos$PooledMutableBlockPos.func_185346_s(SourceFile:437)
+	at net.minecraft.entity.Entity.func_70094_T(Entity.java:1966)
+	at net.minecraft.entity.EntityLivingBase.func_70030_z(EntityLivingBase.java:232)
+	at net.minecraft.entity.EntityLiving.func_70030_z(EntityLiving.java:269)
+	at net.minecraft.entity.Entity.func_70071_h_(Entity.java:389)
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2096)
+	at net.minecraft.entity.EntityLiving.func_70071_h_(EntityLiving.java:377)
+	at net.minecraft.world.World.func_72866_a(World.java:1996)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:832)
+	at net.minecraft.world.World.func_72870_g(World.java:1958)
+	at net.minecraft.world.World.func_72939_s(World.java:1762)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:613)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:767)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:279)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.remove(ArrayList.java:496)
+	at net.minecraft.util.math.BlockPos$PooledMutableBlockPos.func_185339_c(SourceFile:455)
+	at net.minecraft.util.math.BlockPos$PooledMutableBlockPos.func_185346_s(SourceFile:437)
+	at net.minecraft.entity.Entity.func_70094_T(Entity.java:1966)
+	at net.minecraft.entity.EntityLivingBase.func_70030_z(EntityLivingBase.java:232)
+	at net.minecraft.entity.EntityLiving.func_70030_z(EntityLiving.java:269)
+	at net.minecraft.entity.Entity.func_70071_h_(Entity.java:389)
+	at net.minecraft.entity.EntityLivingBase.func_70071_h_(EntityLivingBase.java:2096)
+	at net.minecraft.entity.EntityLiving.func_70071_h_(EntityLiving.java:377)
+	at net.minecraft.world.World.func_72866_a(World.java:1996)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:832)
+	at net.minecraft.world.World.func_72870_g(World.java:1958)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:sheep (net.minecraft.entity.passive.EntitySheep)
+	Entity ID: 86
+	Entity Name: Domba
+	Entity's Exact location: 177.55, 72.00, 358.81
+	Entity's Block location: World: (177,72,358), Chunk: (at 1,4,6 in 11,22; contains blocks 176,0,352 to 191,255,367), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.func_72939_s(World.java:1762)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:613)
+
+-- Affected level --
+Details:
+	Level name: Dunia Baru
+	All players: 1 total; [EntityPlayerMP['冷熙'/335, l='Dunia Baru', x=198.50, y=71.83, z=390.21]]
+	Chunk stats: ServerChunkCache: 307 Drop: 0
+	Level seed: -1075337163
+	Level generator: ID 02 - largeBiomes, ver 0. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (252,64,248), Chunk: (at 12,4,8 in 15,15; contains blocks 240,0,240 to 255,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 164881 game time, 276030 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 13238 (now: false), thunder time: 71813 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:767)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:279)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (arm) version 4.14.98-perf+
+	Java Version: 1.8.0-internal, Oracle Corporation
+	Java VM Version: OpenJDK Client VM (mixed mode), Oracle Corporation
+	Memory: 43102960 bytes (41 MB) / 456130560 bytes (435 MB) up to 456130560 bytes (435 MB)
+	JVM Flags: 2 total; -Xms450M -Xmx450M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 99
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 Optifine OptiFine_1.12.2_HD_U_F5 19 mods loaded, 18 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                   | Version         | Source                                      | Signature                                |
+	|:------ |:-------------------- |:--------------- |:------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft            | 1.12.2          | minecraft.jar                               | None                                     |
+	| LCHIJA | mcp                  | 9.42            | minecraft.jar                               | None                                     |
+	| LCHIJA | FML                  | 8.0.99.99       | forge-1.12.2-14.23.5.2847.jar               | None                                     |
+	| LCHIJA | forge                | 14.23.5.2847    | forge-1.12.2-14.23.5.2847.jar               | None                                     |
+	| LCHIJA | obfuscate            | 0.4.2           | minecraft.jar                               | None                                     |
+	| LCHIJA | additionalstructures | 2.0.0           | Additional-Structures-Mod-1.12.2.jar        | None                                     |
+	| LCHIJA | cfm                  | 6.3.0           | cfm-6.3.0-mc1.12.2.jar                      | None                                     |
+	| LCHIJA | mclib                | 1.0.4           | mclib-1.0.4-1.12.2.jar                      | None                                     |
+	| LCHIJA | emoticons            | 0.4.3           | emoticons-0.4.3-1.12.2-dist.jar             | None                                     |
+	| LCHIJA | fpsreducer           | mc1.12.2-1.12.4 | FpsReducer-mc1.12.2-1.12.4.jar              | None                                     |
+	| LCHIJA | jei                  | 4.15.0.291      | jei_1.12.2-4.15.0.291.jar                   | None                                     |
+	| LCHIJA | journeymap           | 1.12.2-5.5.5    | journeymap-1.12.2-5.5.5.jar                 | None                                     |
+	| LCHIJA | jmcm                 | 9.6             | MinecraftCapes Forge 1.12.2.jar             | None                                     |
+	| LCHIJA | movillages           | 1.5.4           | Mo-Villages-Mod-1.12.2.jar                  | None                                     |
+	| LCHIJA | mobends              | 0.24            | mobends-0.24_for_MC-1.12.jar                | None                                     |
+	| LCHIJA | vehicle              | 0.44.0          | MrCrayfishs-Vehicle-Mod-1.12.2.jar          | None                                     |
+	| LCHIJA | toughasnails         | 3.1.0.139       | ToughAsNails-1.12.2-3.1.0.139-universal.jar | None                                     |
+	| LCHIJA | phosphor-lighting    | 1.12.2-0.2.6    | phosphor-1.12.2-0.2.6+build50-universal.jar | f0387d288626cc2d937daa504e74af570c52a2f1 |
+	| UD     | mclib_core           | 1.0.4           | minecraft.jar                               | None                                     |
+
+	Loaded coremods (and transformers): 
+PhosphorFMLLoadingPlugin (phosphor-1.12.2-0.2.6+build50-universal.jar)
+  
+ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+McLib core mod (mclib-1.0.4-1.12.2.jar)
+  mchorse.mclib.core.McLibCMClassTransformer
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['冷熙'/335, l='Dunia Baru', x=198.50, y=71.83, z=390.21]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	OptiFine Version: OptiFine_1.12.2_HD_U_F5
+	OptiFine Build: 20191204-141934
+	Render Distance Chunks: 2
+	Mipmaps: 1
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 2.0 gl4es wrapper 1.1.2
+	OpenGlRenderer: GL4ES wrapper
+	OpenGlVendor: ptitSeb
+	CpuCount: 8
+[04:20:16] [Server thread/INFO]: Saving players
+[04:20:16] [Client thread/INFO]: [net.minecraft.init.Bootstrap:func_179870_a:553]: #@!@# Game crashed! Crash report saved to: #@!@# /sdcard/boat/gamedir/crash-reports/crash-2020-06-02_04.20.15-server.txt
+[04:20:16] [Client thread/INFO]: Waiting for the server to terminate/save.
+[04:20:16] [Server thread/INFO]: Saving worlds
+[04:20:16] [Server thread/INFO]: Saving chunks for level 'Dunia Baru'/overworld
+[04:20:17] [Server thread/INFO]: Mapping halted in /sdcard/boat/gamedir/journeymap/data/sp/Dunia Baru/DIM0
+[04:20:17] [Server thread/WARN]: Existing color palette's mods no longer match current loadout.
+[04:20:17] [Server thread/INFO]: WAS: Emoticons:0.4.3, FPS Reducer:mc1.12.2-1.12.4, Forge Mod Loader:8.0.99.99, James090500's MinecraftCapes Mod:9.6, JourneyMap:1.12.2-5.5.5, Just Enough Items:4.15.0.291, McLib:1.0.4, Minecraft Coder Pack:9.42, Minecraft Forge:14.23.5.2847, Minecraft:1.12.2, Mo' Bends:0.24, MrCrayfish's Furniture Mod:6.3.0, MrCrayfish's Vehicle Mod:0.44.0, Obfuscate:0.4.2, Phosphor Lighting Engine:1.12.2-0.2.6, Tough As Nails:3.1.0.139
+NOW: Emoticons:0.4.3, FPS Reducer:mc1.12.2-1.12.4, Forge Mod Loader:8.0.99.99, James090500's MinecraftCapes Mod:9.6, JourneyMap:1.12.2-5.5.5, Just Enough Items:4.15.0.291, McLib:1.0.4, Minecraft Coder Pack:9.42, Minecraft Forge:14.23.5.2847, Minecraft:1.12.2, Mo' Bends:0.24, Mo' Villages:1.5.4, MrCrayfish's Furniture Mod:6.3.0, MrCrayfish's Vehicle Mod:0.44.0, Obfuscate:0.4.2, Phosphor Lighting Engine:1.12.2-0.2.6, Rex's Additional Structures:2.0.0, Tough As Nails:3.1.0.139
+[04:20:17] [Server thread/INFO]: Unloading dimension 0
+[04:20:19] [Server thread/INFO]: Applying holder lookups
+[04:20:19] [Server thread/INFO]: Holder lookups applied
+[04:20:19] [Server thread/INFO]: The state engine was in incorrect state SERVER_STOPPING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[04:20:19] [Client thread/INFO]: Server terminated.
+[04:20:19] [Client Shutdown Thread/INFO]: Stopping server
+[04:20:19] [Client Shutdown Thread/INFO]: Saving players
+[04:20:19] [Client Shutdown Thread/INFO]: 冷熙 lost connection: Peladen tertutup
+[04:20:19] [Client Shutdown Thread/INFO]: 冷熙 meninggalkan permainan
+[04:20:19] [Client Shutdown Thread/INFO]: Stopping singleplayer server as player logged out
+[04:20:19] [Client Shutdown Thread/INFO]: Saving worlds
